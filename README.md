@@ -1,2 +1,2 @@
-# jwt-authentication
+# JWT Authentication
 Authentication exercise
