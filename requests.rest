@@ -29,7 +29,7 @@ POST http://localhost:3000/api/refresh-token
 Content-Type: application/json
 
 {
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYwMGE3MzNiZjZiZmY2OTQ3MDU5IiwiaWF0IjoxNjUzMzAxMjU5LCJleHAiOjE2NTMzMDEyODl9.Jotg9rmUjVaYTELk-OnAjf3_cGG47Vt8u16i4FClCy8"
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNmI3MDIxMTMzYTA2NzU2YjU4MWQiLCJ0b2tlbklkIjoiNjI4YjZiNzAyMTEzM2EwNjc1NmI1ODFmIiwiaWF0IjoxNjUzMzA0MTc2LCJleHAiOjE2NTMzMDQyMDZ9.rAHJyg1Kr1akPiurG_Il35iYlj2rV9Rl16bYMySvk8Y"
 }
 
 ###
@@ -38,7 +38,7 @@ POST http://localhost:3000/api/logout
 Content-Type: application/json
 
 {
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYxZWRiODhjMmRhMGEyYmJlMmFjIiwiaWF0IjoxNjUzMzAxNzQxLCJleHAiOjE2NTMzMDE3NzF9.-FA2fgocrUEzvIWK_zb2pqyskZvumWP9f307cX9zLRg"
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNmI3MDIxMTMzYTA2NzU2YjU4MWQiLCJ0b2tlbklkIjoiNjI4YjZiODEyMTEzM2EwNjc1NmI1ODIyIiwiaWF0IjoxNjUzMzA0MTkzLCJleHAiOjE2NTMzMDQyMjN9.DfHudlY8vifn5JUe17hhHHijkcXmjj0XRJOTnRf7PVQ"
 }
 
 ###
@@ -47,7 +47,7 @@ POST http://localhost:3000/api/new-access-token
 Content-Type: application/json
 
 {
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYzYzljNmVhMjRjZDEzMGJmODc0IiwiaWF0IjoxNjUzMzAyMjE3LCJleHAiOjE2NTMzMDIyNDd9.JFoeIgd1rNmnp87-dhis0xPg9YWwWjmgx5mKRzmpcg8"
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNmI3MDIxMTMzYTA2NzU2YjU4MWQiLCJ0b2tlbklkIjoiNjI4YjZiYjQyMTEzM2EwNjc1NmI1ODMwIiwiaWF0IjoxNjUzMzA0MjQ0LCJleHAiOjE2NTMzMDQyNzR9.IefsbcdIERaZ1iB8upJy_J5FY97Hko2HUOkK10mVMTk"
 }
 
 ###
@@ -56,5 +56,5 @@ POST http://localhost:3000/api/logout-all
 Content-Type: application/json
 
 {
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYyZTg1YzAzODI3NzY2NDA5MjczIiwiaWF0IjoxNjUzMzAxOTkyLCJleHAiOjE2NTMzMDIwMjJ9.gKYcCo6bfvTovFlKRqJ3I5tgTIzfO7aHUpZAThHBFtI"
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNmI3MDIxMTMzYTA2NzU2YjU4MWQiLCJ0b2tlbklkIjoiNjI4YjZiOWMyMTEzM2EwNjc1NmI1ODJiIiwiaWF0IjoxNjUzMzA0MjIwLCJleHAiOjE2NTMzMDQyNTB9.-YUFkuC2SrXfy5e2pNQTpiMDIiGDmx3wgARnT76S8qA"
 }
