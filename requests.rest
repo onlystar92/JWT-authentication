@@ -1,0 +1,60 @@
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "first_name": "Idris",
+  "last_name": "Olubisi",
+  "email": "user@gmail.com",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "123456"
+}
+
+###
+
+GET http://localhost:3000/welcome
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4NzlmOGFlMDk0MGFkMmQ0NTkxN2RkIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsImlhdCI6MTY1MzI5MzA2MSwiZXhwIjoxNjUzMjkzMDc2fQ.RyDABNHoZmrf7zMBIdscM9_Fp1UwXajnZ7Ib-1q4dWo
+
+###
+
+POST http://localhost:3000/api/refresh-token
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYwMGE3MzNiZjZiZmY2OTQ3MDU5IiwiaWF0IjoxNjUzMzAxMjU5LCJleHAiOjE2NTMzMDEyODl9.Jotg9rmUjVaYTELk-OnAjf3_cGG47Vt8u16i4FClCy8"
+}
+
+###
+
+POST http://localhost:3000/api/logout
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYxZWRiODhjMmRhMGEyYmJlMmFjIiwiaWF0IjoxNjUzMzAxNzQxLCJleHAiOjE2NTMzMDE3NzF9.-FA2fgocrUEzvIWK_zb2pqyskZvumWP9f307cX9zLRg"
+}
+
+###
+
+POST http://localhost:3000/api/new-access-token
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYzYzljNmVhMjRjZDEzMGJmODc0IiwiaWF0IjoxNjUzMzAyMjE3LCJleHAiOjE2NTMzMDIyNDd9.JFoeIgd1rNmnp87-dhis0xPg9YWwWjmgx5mKRzmpcg8"
+}
+
+###
+
+POST http://localhost:3000/api/logout-all
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjhiNWVhZTQzZDgyNzFiNGFjZTI2YmQiLCJ0b2tlbklkIjoiNjI4YjYyZTg1YzAzODI3NzY2NDA5MjczIiwiaWF0IjoxNjUzMzAxOTkyLCJleHAiOjE2NTMzMDIwMjJ9.gKYcCo6bfvTovFlKRqJ3I5tgTIzfO7aHUpZAThHBFtI"
+}
