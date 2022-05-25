@@ -20,14 +20,14 @@ const signup = errorHandler(async (req, res) => {
 
   // Validate user input
   if (!(email && password && first_name && last_name)) {
-    res.status(400).send("All input is required");
+    throw new HttpError(400, "All input is required");
   }
 
   // Checks if user already exist in the db
   const oldUser = await User.findOne({ email });
 
   if (oldUser) {
-    res.status(409).send("User already exists. Please login");
+    throw new HttpError(409, "User already exists. Please login");
   }
 
   // Encrypt password
